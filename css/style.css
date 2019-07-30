@@ -1,10 +1,12 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #FFFFFF;
+  color: #000000;
 }
 
+/* edit navigation elements here */
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: #000000;
+  color: #FFFFFF;
   float: left;
   position: fixed;
   width: 100%;
@@ -13,23 +15,14 @@ nav {
 .logo {
   margin: 20px;
   width: 100px;
-}
-
-.large-pic {
-  width: 100%;
-}
-
-.medium-pic {
-  width: 70%;
+  background-image: url(file:///Users/christiechang/css-exercise-two/images/bloc-logo.png)
+  background-repeat: no-repeat;
 }
 
 .left, .right {
   float: left;
   width: 50%;
-}
-
-.right {
-  float: right;
+  color: #FFFFFF;
 }
 
 ul {
@@ -42,6 +35,18 @@ li {
   padding: 30px;
 }
 
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+a:hover {
+  color: #0BF8C9;
+}
+
+
+/** edit content layout here **/
+
 article {
   padding-top: 100px;
 }
@@ -49,4 +54,43 @@ article {
 .container {
   margin: 0 auto;
   width: 50%;
+}
+
+.medium-pic {
+  width: 50%;
+  background-image: url(file:///Users/christiechang/css-exercise-two/images/instagram-pic.jpg);
+}
+
+/** edit content elements here **/
+
+.figcaption{
+  font-size: .8em;
+  text-align: left;
+  line-height: 1.8em;
+}
+
+h1{
+  font-size: 2.8em;
+  line-height: 2em;
+  text-align: left;
+  font-weight: bold;
+}
+
+h3{
+  font-size: 1.1em;
+  line-height: 1.3em;
+}
+
+.author{
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 4em;
+}
+
+.story-text{
+  color: #000000;
+  font-size: 1em;
+  text-align: left;
+  line-height: 1.4em;
+  width: 75%;
 }
