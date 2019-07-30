@@ -33,6 +33,7 @@ body {
 }
 ol, ul {
 	list-style: none;
+	color: #FFFFFF;
 }
 blockquote, q {
 	quotes: none;
