@@ -1,7 +1,52 @@
-/* edit navigation elements here */
+/**content**/
+
+body {
+  background-color: #FFFFFF;
+  color: #000000;
+  font-size: 16px;
+  font-family: arial,sans-serif;
+  line-height: 1.7em;
+  text-align: left;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+  text-transform: capitalize;
+  line-height: 2em;
+}
+
+h3 {
+  font-size: 1.2em
+}
+
+.story-text{
+  font-size: 100%;
+  line-height: 1.3em;
+}
+
+.author {
+  font-size: 1em;
+  text-transform: capitalize;
+  font-weight: bold;
+  line-height: 4em;
+}
+
+figcaption {
+  font-size: .7em;
+}
+
+.medium-pic {
+  background-image: url(images/instagram-pic.jpg);
+  width: 60%;
+  background-position: right;
+}
+
+
+/** nav **/
+
 nav {
   background-color: #000000;
-  color: #FFFFFF;
   float: left;
   position: fixed;
   width: 100%;
@@ -10,14 +55,27 @@ nav {
 .logo {
   margin: 20px;
   width: 100px;
-  background: url(images/bloc-logo.png) no-repeat;
+  background-image: url(images/bloc-logo.png);
 }
 
 .left, .right {
   float: left;
   width: 50%;
+}
+
+.right {
+  float: right;
+}
+
+a {
+  text-decoration: none;
   color: #FFFFFF;
 }
+
+a:hover{
+  color: #08EAF6;
+}
+
 
 ul {
   list-style-type: none;
@@ -29,77 +87,11 @@ li {
   padding: 30px;
 }
 
-a {
-  text-decoration: none;
-  color: #FFFFFF;
-}
-
-a:hover {
-  color: #0BF8C9;
-}
-
-
-/** edit content layout here **/
-
 article {
   padding-top: 100px;
-  padding-bottom: 100px;
 }
 
 .container {
   margin: 0 auto;
-  width: 50%;
-}
-
-
-/** edit content elements here **/
-
-
-body {
-  background-color: #FFFFFF;
-  color: #000000;
-  font-size: 15px;
-  font-family: arial,sans-serif;
-}
-
-h1{
-  font-size: 3em;
-  line-height: 2em;
-  text-align: left;
-  font-weight: bold;
-}
-
-h3{
-  font-size: 1.2em;
-  line-height: 1.4em;
-}
-
-p{
-  font-size:100%;
-}
-
-.medium-pic {
-  width: 50%;
-  background: url(images/instagram-pic.jpg) no-repeat;
-  padding-bottom: 10px;
-}
-
-.figcaption{
-  font-size: .8em;
-  text-align: left;
-  line-height: 1em;
-}
-
-.author{
-  font-size: 1em;
-  font-weight: bold;
-  line-height: 4em;
-}
-
-.story-text{
-  color: #000000;
-  font-size: 1em;
-  text-align: left;
-  line-height: 1.4em;
-  width: 75%;
+  width: 40%;
 }
