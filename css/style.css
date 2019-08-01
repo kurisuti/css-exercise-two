@@ -1,6 +1,24 @@
 body {
   background-color: #FFFFFF;
   color: #000000;
+  font-size: 15px;
+  font-family: "times new roman",serif;
+}
+
+h1{
+  font-size: 2.8em;
+  line-height: 2em;
+  text-align: left;
+  font-weight: bold;
+}
+
+h3{
+  font-size: 1em;
+  line-height: 1.4em;
+}
+
+p{
+  font-size:100%;
 }
 
 /* edit navigation elements here */
@@ -15,7 +33,7 @@ nav {
 .logo {
   margin: 20px;
   width: 100px;
-  background-image: url(file:///Users/christiechang/css-exercise-two/images/bloc-logo.png)
+  background: url(images/bloc-logo.png)
   background-repeat: no-repeat;
 }
 
@@ -69,17 +87,6 @@ article {
   line-height: 1.8em;
 }
 
-h1{
-  font-size: 2.8em;
-  line-height: 2em;
-  text-align: left;
-  font-weight: bold;
-}
-
-h3{
-  font-size: 1.1em;
-  line-height: 1.3em;
-}
 
 .author{
   font-size: 1em;
