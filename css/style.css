@@ -1,26 +1,3 @@
-body {
-  background-color: #FFFFFF;
-  color: #000000;
-  font-size: 15px;
-  font-family: "times new roman",serif;
-}
-
-h1{
-  font-size: 2.8em;
-  line-height: 2em;
-  text-align: left;
-  font-weight: bold;
-}
-
-h3{
-  font-size: 1em;
-  line-height: 1.4em;
-}
-
-p{
-  font-size:100%;
-}
-
 /* edit navigation elements here */
 nav {
   background-color: #000000;
@@ -33,8 +10,7 @@ nav {
 .logo {
   margin: 20px;
   width: 100px;
-  background: url(images/bloc-logo.png)
-  background-repeat: no-repeat;
+  background: url(images/bloc-logo.png) no-repeat;
 }
 
 .left, .right {
@@ -67,6 +43,7 @@ a:hover {
 
 article {
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .container {
@@ -74,19 +51,44 @@ article {
   width: 50%;
 }
 
-.medium-pic {
-  width: 50%;
-  background-image: url(file:///Users/christiechang/css-exercise-two/images/instagram-pic.jpg);
-}
 
 /** edit content elements here **/
+
+
+body {
+  background-color: #FFFFFF;
+  color: #000000;
+  font-size: 15px;
+  font-family: arial,sans-serif;
+}
+
+h1{
+  font-size: 3em;
+  line-height: 2em;
+  text-align: left;
+  font-weight: bold;
+}
+
+h3{
+  font-size: 1.2em;
+  line-height: 1.4em;
+}
+
+p{
+  font-size:100%;
+}
+
+.medium-pic {
+  width: 50%;
+  background: url(images/instagram-pic.jpg) no-repeat;
+  padding-bottom: 10px;
+}
 
 .figcaption{
   font-size: .8em;
   text-align: left;
-  line-height: 1.8em;
+  line-height: 1em;
 }
-
 
 .author{
   font-size: 1em;
