@@ -20,7 +20,7 @@ h3 {
   font-size: 1.2em
 }
 
-.story-text{
+.story-text {
   font-size: 100%;
   line-height: 1.3em;
 }
@@ -88,10 +88,10 @@ li {
 }
 
 article {
-  padding-top: 100px;
+  padding-top: 120px;
 }
 
 .container {
   margin: 0 auto;
-  width: 40%;
+  width: 52%;
 }
