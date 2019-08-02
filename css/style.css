@@ -20,9 +20,10 @@ h3 {
   font-size: 1.2em
 }
 
-.story-text {
+p {
   font-size: 100%;
   line-height: 1.3em;
+  margin-bottom: 1em;
 }
 
 .author {
@@ -33,7 +34,8 @@ h3 {
 }
 
 figcaption {
-  font-size: .7em;
+  font-size: .85em;
+  color: gray;
 }
 
 .medium-pic {
